@@ -12,12 +12,11 @@ const Resume = () => {
 
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
+      <div className=" justify-center items-center text-center grid">
         <Title title="1 years of experience" des="My Resume" />
-      </div>
-			
-      <div className="ml-[35%] mb-10 w-[30%]">
-        <DowmloadPdf/>
+        <span className='mb-10'>
+          <DowmloadPdf />
+        </span>
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3">
@@ -66,7 +65,6 @@ const Resume = () => {
       {educationData && <Education />}
       {skillData && <Skills />}
       {experienceData && <Experience />}
-
     </section>
   );
 };
