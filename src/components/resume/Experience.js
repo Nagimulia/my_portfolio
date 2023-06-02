@@ -7,7 +7,7 @@ const Experience = () => {
 		<motion.div
 		initial={{ opacity: 0 }}
 		animate={{ opacity: 1, transition: { duration: 0.5 }}}
-		className="w-full"
+		className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
 	>
 		<div className="py-12 font-titleFont">
 			<p className="text-sm text-designColor tracking-[4px]">Features</p>
@@ -27,10 +27,10 @@ const Experience = () => {
 				des="Create projects in Javascript with my team"
 			/>
 			<ResumeCard
-				title="Self-learning and development"
-				subTitle="Pet projects"
-				result="5.00/5"
-				des="I create my own pet projects for practice."
+				title="Upwork"
+				subTitle="Job"
+				result="4.75/5"
+				des="Create projects in Javascript with React"
 			/>
 		</div>
 	</motion.div>

@@ -21,19 +21,20 @@ const ContactLeft = () => {
           developments of developers.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-					<a href="tel:+77784008914">
-          Phone: 
-					<br/>
-					<span className="text-lightText">+7 778 400 8914</span>
-					</a>
+          <a href="tel:+77784008914">
+            Phone:
+            <br />
+            <span className="text-lightText">+7 778 400 8914</span>
+          </a>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          			
-					<a href="mailto:nagimakeneuova@gmail.com">
-					Email:
-					<br/>
-          <span className="text-lightText xs:text-[13px]">nagimakeneuova@gmail.com</span>
-					</a>
+          <a href="mailto:nagimakeneuova@gmail.com">
+            Email:
+            <br />
+            <span className="md:text-2xl text-lightText xs:text-[10px]">
+              nagimakeneuova@gmail.com
+            </span>
+          </a>
         </p>
         <div className="flex flex-col gap-4">
           <h2 className="text-base uppercase font-titleFont mb-4">
