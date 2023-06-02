@@ -8,7 +8,7 @@ const Skills = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-			<div classname='w-full lgl:w-1/2'>
+
       <div className="py-12 font-titleFont">
         <p className="text-sm text-designColor tracking-[4px]">Features</p>
         <h2 className="text-4xl font-bold">My Skills</h2>
@@ -106,7 +106,7 @@ const Skills = () => {
           </span>
         </div>
 				</div>
-      </div>
+      
     </motion.div>
   );
 };
